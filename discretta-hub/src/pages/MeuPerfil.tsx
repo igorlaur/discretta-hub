@@ -1,7 +1,17 @@
 import { useEffect, useState } from 'react';
 
+type Perfil = {
+  id: number;
+  name: string;
+  email: string;
+  role: string;
+  foto?: string;
+  data_entrada?: string;
+  supervisor?: string;
+};
+
 export default function MeuPerfil() {
-  const [perfil, setPerfil] = useState(null);
+  const [perfil, setPerfil] = useState<Perfil | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
 

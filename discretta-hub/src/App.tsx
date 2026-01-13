@@ -38,6 +38,18 @@ export default function App() {
         }
       />
       <Route
+        path="/login"
+        element={
+          <AuthLayout>
+            <Login />
+            <p className="mt-4 text-center text-sm text-gray-500">
+              Não tem conta?{' '}
+              <a href="/" className="text-pink-600 hover:underline font-semibold">Criar conta</a>
+            </p>
+          </AuthLayout>
+        }
+      />
+      <Route
         path="/"
         element={
           <AuthLayout>

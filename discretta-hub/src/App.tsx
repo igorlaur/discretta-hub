@@ -1,12 +1,10 @@
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import AuthLayout from './layouts/AuthLayout';
 import MainLayout from './layouts/MainLayout';
 import Login from './pages/Login';
 import RegisterForm from './pages/RegisterForm';
-import AdminApprove from './pages/AdminApprove';
-import Dashboard from './pages/Dashboard';
 import HomeColaborador from './pages/HomeColaborador';
 import MeuPerfil from './pages/MeuPerfil';
 import MinhaFuncao from './pages/MinhaFuncao';

@@ -1,6 +1,5 @@
 
-import React, { useState } from 'react';
-import type { FormEvent, ChangeEvent } from 'react';
+import { useState } from 'react';
 
 export default function Register() {
   const [form, setForm] = useState({ name: '', email: '', password: '', role: '' });

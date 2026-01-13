@@ -85,6 +85,5 @@ app.get('/users', (req, res) => {
   });
 });
 
-app.listen(3001, () => {
-  console.log('API Discretta rodando em http://localhost:3001');
-});
+
+export default app;

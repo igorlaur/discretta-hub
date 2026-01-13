@@ -1,5 +1,6 @@
 
 import { useState } from 'react';
+import type { ChangeEvent } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 export default function Login() {

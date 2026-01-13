@@ -7,7 +7,6 @@ import Login from './pages/Login';
 import RegisterForm from './pages/RegisterForm';
 import HomeColaborador from './pages/HomeColaborador';
 import MeuPerfil from './pages/MeuPerfil';
-import MinhaFuncao from './pages/MinhaFuncao';
 
 export default function App() {
   const [showRegister, setShowRegister] = useState(false);
@@ -21,14 +20,7 @@ export default function App() {
           </MainLayout>
         }
       />
-      <Route
-        path="/minha-funcao"
-        element={
-          <MainLayout>
-            <MinhaFuncao />
-          </MainLayout>
-        }
-      />
+      {/* Removido rota de gibi/minha-funcao */}
       <Route
         path="/perfil"
         element={
